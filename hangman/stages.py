@@ -1,0 +1,62 @@
+def display_hangman(tries="_"):
+    match tries:
+        case 6:
+            print("-----")
+            print("|   |")
+            print("|")
+            print("|")
+            print("|")
+            print("|")
+            print("-----")
+        case 5:
+            print("-----")
+            print("|   |")
+            print("|   O")
+            print("|")
+            print("|")
+            print("|")
+            print("-----")
+        case 4:
+            print("-----")
+            print("|   |")
+            print("|   O")
+            print("|   |")
+            print("|")
+            print("|")
+            print("-----")
+        case 3:
+            print("-----")
+            print("|   |")
+            print("|   O")
+            print("|  /|")
+            print("|")
+            print("|")
+            print("-----")
+        case 2:
+            print("-----")
+            print("|   |")
+            print("|   O")
+            print("|  /|\\")
+            print("|")
+            print("|")
+            print("-----")
+        case 1:
+            print("-----")
+            print("|   |")
+            print("|   O")
+            print("|  /|\\")
+            print("|  /")
+            print("|")
+            print("-----")
+        case 0:
+            print("-----")
+            print("|   |")
+            print("|   O")
+            print("|  /|\|")
+            print("|  / \|")
+            print("|")
+            print("-----")
+        case _ :
+            print("okie")
+
+display_hangman()
